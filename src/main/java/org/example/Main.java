@@ -73,7 +73,7 @@ public class Main {
         List<String> anagrams = anagram.getAllAnagrams(text);
 
         if (anagrams.isEmpty()) {
-            System.out.println("No anagrams found");
+            System.out.println("1");
         } else {
             System.out.println("The following are anagrams of the given string:");
             for (String anagram : anagrams) {
